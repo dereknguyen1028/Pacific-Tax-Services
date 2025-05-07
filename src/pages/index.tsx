@@ -1,9 +1,11 @@
+import Reasons from "~/components/home/reasons";
+
 export default function Home() {
     return (
         <>
-            <div>
-                <h1>Pacific Tax Services</h1>
-            </div>
+            <main className="min-h-screen bg-white text-black">
+                <Reasons />
+            </main>
         </>
     );
 }
