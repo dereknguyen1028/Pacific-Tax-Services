@@ -10,7 +10,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
     return (
         <CookiesProvider>
             <div className={GeistSans.className} suppressHydrationWarning={true}>
-                <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
+                <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
                     <Component {...pageProps} />
                     <ProgressBar height="4px" color="#f59a9f" options={{ showSpinner: false }} shallowRouting />
                 </ThemeProvider>
